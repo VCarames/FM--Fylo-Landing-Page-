@@ -217,7 +217,7 @@ body {
 .intro-section__illustration {
   max-width: 40rem;
 
-  margin: 0 8px 0 8px;
+  margin: 0 0.5rem 0 0.5rem;
 }
 
 .intro-section__content {
@@ -233,9 +233,10 @@ body {
 .intro-section__heading {
   max-width: 28ch;
 
-  font-family: var(--Raleway-FF);
+  font-family: var(--Open-Sans-FF);
   font-weight: 700;
   font-size: 1.5rem;
+  line-height: 2.25rem;
 
   margin-bottom: 1.5rem;
 }
@@ -247,7 +248,7 @@ body {
   font-weight: 400;
   font-size: 0.88rem;
 
-  margin: 0 1rem 2rem 9px;
+  margin: 0 1rem 2rem 0.56rem;
 }
 
 @media (min-width: 62.5em) {
@@ -280,7 +281,7 @@ body {
   .intro-section__text {
     font-size: 1.06rem;
     line-height: 1.41;
-    letter-spacing: 0.53px;
+    letter-spacing: 0.03rem;
 
     margin: 0 0 1.56rem 0;
   }
@@ -297,15 +298,16 @@ body {
   grid-template-areas:
     "email"
     "button";
-  gap: 16px;
+  gap: 0.81rem;
 
+  padding: 0 0.56rem;
   margin: 0 auto;
 }
 
 .intro-section__form-email {
   grid-area: email;
 
-  padding: 0.75rem 2rem 0.75rem 1.25rem;
+  padding: 0.31rem 2rem 0.75rem 1.25rem;
 }
 
 input[type="email"] {
@@ -313,10 +315,10 @@ input[type="email"] {
 
   font-family: var(--Open-Sans-FF);
 
-  border: solid 0.63px var(--Primary-Color);
-  border-radius: 3.13px;
+  border: solid 0.04rem var(--Primary-Color);
+  border-radius: 0.2rem;
 
-  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+  box-shadow: 0.13rem 0.19rem 0.38rem rgba(0, 0, 0, 0.15925);
 }
 
 .intro-section__form-email::placeholder {
@@ -324,7 +326,7 @@ input[type="email"] {
   font-size: 0.75rem;
   font-weight: 400;
   line-height: 1.36;
-  letter-spacing: 0.47px;
+  letter-spacing: 0.03rem;
 
   color: var(--Secondary-Neutral);
 }
@@ -343,10 +345,10 @@ input[type="email"] {
 
   color: var(--Primary-Neutral);
 
-  border-radius: 4px;
+  border-radius: 0.25rem;
   background: var(--Primary-Accent);
 
-  box-shadow: 0px 7px 7px -1px var(--Box-Shadow);
+  box-shadow: 0 0.44rem 0.44rem -0.06rem var(--Box-Shadow);
 
   transition: var(--Transition);
 }
@@ -369,7 +371,7 @@ input[type="email"] {
 
   padding: 0.75rem 2rem 0.75rem 2rem;
 
-  border-radius: 4px;
+  border-radius: 0.25rem;
 }
 
 @media (min-width: 62.5em) {
@@ -395,12 +397,16 @@ input[type="email"] {
 /* STAY PRODUCTIVE - SECTION */
 /* *********************** */
 
+.illustration-curve {
+  width: 100%;
+}
+
 .productive-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 5.44rem;
+  gap: 5.63rem;
 
   padding: 2.5rem 1.69rem 5.13rem 1.75rem;
   margin: 0 auto;
@@ -432,6 +438,7 @@ input[type="email"] {
   font-family: var(--Raleway-FF);
   font-weight: 700;
   font-size: 1rem;
+  line-height: 1.5rem;
 
   margin-bottom: 1.5rem;
 }
@@ -442,6 +449,7 @@ input[type="email"] {
   font-family: var(--Open-Sans-FF);
   font-weight: 400;
   font-size: 0.88rem;
+  line-height: 1.31rem;
 }
 
 .text-one {
@@ -466,17 +474,17 @@ input[type="email"] {
   align-items: center;
   gap: 0.38rem;
 
-  border-bottom: solid 1px var(--Secondary-Accent);
+  border-bottom: solid 0.06rem var(--Secondary-Accent);
 }
 
 @media (hover: hover) {
   .productive-section__link:is(:hover, :focus-visible) {
     color: var(--Secondary-Accent-Hover);
-    border-bottom: solid 1px var(--Secondary-Accent-Hover);
+    border-bottom: solid 0.06rem var(--Secondary-Accent-Hover);
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 62.5rem) {
   .productive-section {
     flex-direction: row-reverse;
 
@@ -537,7 +545,7 @@ input[type="email"] {
   padding: 2.38rem 0.75rem 1.13rem 1.56rem;
   margin: 0 1.25rem 0 1.25rem;
 
-  border-radius: 4px;
+  border-radius: 0.25rem;
   box-shadow: 0 0 0.94rem 0.19rem var(--Box-Shadow);
 
   background: var(--Primary-Neutral);
@@ -546,8 +554,8 @@ input[type="email"] {
 .productive-section__testimonial::after {
   content: url(../assets/images/icon-quotes.svg);
   position: absolute;
-  top: 1.25rem;
-  left: 2.13rem;
+  top: 1rem;
+  left: 1.69rem;
 }
 
 blockquote {
@@ -572,9 +580,9 @@ figcaption {
   font-weight: 700;
   font-size: 0.56rem;
   line-height: 1.33;
-  letter-spacing: 0.45px;
+  letter-spacing: 0.03rem;
 
-  margin-bottom: 2px;
+  margin-bottom: 0.13rem;
 }
 
 .testimonial__info {
@@ -584,7 +592,7 @@ figcaption {
   letter-spacing: 0.02rem;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 62.5rem) {
   .productive-section__testimonial {
     position: relative;
 
@@ -594,7 +602,7 @@ figcaption {
     margin: 0;
 
     border-radius: 0.25rem;
-    box-shadow: 0px 0px 0.94rem 0.19rem var(--Box-Shadow);
+    box-shadow: 0 0 0.94rem 0.19rem var(--Box-Shadow);
   }
 
   blockquote {
@@ -631,7 +639,7 @@ figcaption {
   justify-content: center;
   gap: 1.5rem;
 
-  padding: 3.38rem 1.69rem 4.44rem 1.69rem;
+  padding: 3.38rem 1.69rem 3.69rem 1.69rem;
   margin: 0 auto;
 
   background: var(--Seconday-Color);
@@ -806,7 +814,7 @@ figcaption {
 }
 
 .footer__nav-item:nth-child(4) {
-  margin-bottom: 31px;
+  margin-bottom: 1.94rem;
 }
 
 .footer__social-list {
@@ -824,7 +832,7 @@ figcaption {
   place-content: center;
 
   fill: var(--Primary-Neutral);
-  border: solid 1px var(--Primary-Neutral);
+  border: solid 0.06rem var(--Primary-Neutral);
   border-radius: 2.5rem;
 
   transition: var(--Transition);
@@ -848,7 +856,7 @@ figcaption {
   }
 
   .footer__social-link:is(:hover, :focus-visible) {
-    border: solid 1px var(--Primary-Accent-Hover);
+    border: solid 0.06rem var(--Primary-Accent-Hover);
   }
 
   .footer__social-link:is(:hover, :focus-visible) .footer__social-icon {
