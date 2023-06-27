@@ -173,3 +173,20 @@ body {
     max-width: 9.13rem;
   }
 }
+
+@media (min-width: 62.5em) {
+  .header {
+    padding: 4.06rem 5rem 2.5rem 5rem;
+  }
+
+  .header__logo {
+    max-width: 10.38rem;
+  }
+
+  .header__nav-list {
+    gap: 3.63rem;
+
+    font-size: 1rem;
+    line-height: 1.19;
+  }
+}
