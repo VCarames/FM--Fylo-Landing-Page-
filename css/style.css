@@ -118,3 +118,12 @@ button {
 
   --Transition: 0.8s all;
 }
+
+/* *********************** */
+/* BODY */
+/* *********************** */
+
+body {
+  background: var(--Primary-Neutral);
+  transition: var(--Transition);
+}
