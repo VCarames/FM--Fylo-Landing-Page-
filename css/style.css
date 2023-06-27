@@ -847,3 +847,26 @@ figcaption {
     margin-top: 0.19rem;
   }
 }
+
+@media (min-width: 62.5rem) {
+  .footer {
+    padding: 5.81rem 5rem 2.44rem 5rem;
+  }
+
+  .footer__logo {
+    max-width: 8.44rem;
+    margin-bottom: 2.19rem;
+  }
+}
+
+@media (min-width: 75em) {
+  .footer__nav-list {
+    column-gap: 9.19rem;
+  }
+}
+
+@media (min-width: 87.5em) {
+  .footer__address {
+    margin-right: 10.5rem;
+  }
+}
