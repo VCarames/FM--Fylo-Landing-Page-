@@ -163,3 +163,13 @@ body {
 
   color: var(--Primary-Color);
 }
+
+@media (min-width: 31.25em) {
+  .header {
+    padding: 4.06rem 3.75rem 1.63rem 3.75rem;
+  }
+
+  .header__logo {
+    max-width: 9.13rem;
+  }
+}
