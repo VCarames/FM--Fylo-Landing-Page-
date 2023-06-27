@@ -44,4 +44,4 @@ To sign up for Fylo's services, locate the email input field provided on the web
 
 <h2>Contributing</h2>
 
-Contributions to the Modern Art Gallery website are welcome! If you find any issues or would like to suggest enhancements, please submit a pull request.
+Contributions to the Fylo website are welcome! If you find any issues or would like to suggest enhancements, please submit a pull request.
