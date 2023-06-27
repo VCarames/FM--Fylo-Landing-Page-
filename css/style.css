@@ -90,3 +90,31 @@ button {
     scroll-behavior: auto !important;
   }
 }
+
+/* *********************** */
+/* VARIABLES */
+/* *********************** */
+
+:root {
+  --Open-Sans-FF: "Open Sans", sans-serif;
+  --Raleway-FF: "Raleway", sans-serif;
+
+  --Primary-Color: hsl(243, 87%, 12%);
+  --Seconday-Color: hsl(238, 22%, 44%);
+
+  --Primary-Accent: hsl(224, 93%, 58%);
+  --Primary-Accent-Hover: hsl(221, 100%, 71%);
+  --Secondary-Accent: hsl(170, 45%, 43%);
+  --Secondary-Accent-Hover: hsl(170, 63%, 66%);
+
+  --Primary-Neutral: hsl(0, 0%, 100%);
+  --Secondary-Neutral: hsl(0, 0%, 76%);
+
+  --Productive-Background-Color: #f8f8fe;
+
+  --Error-Color: hsl(348, 100%, 53%);
+
+  --Box-Shadow: hsla(0, 0%, 0%, 0.1);
+
+  --Transition: 0.8s all;
+}
