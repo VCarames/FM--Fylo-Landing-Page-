@@ -190,3 +190,135 @@ body {
     line-height: 1.19;
   }
 }
+
+/* *********************** */
+/* INTRO - SECTION */
+/* *********************** */
+
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+
+  padding: 0 1.69rem;
+
+  margin-bottom: 4.63rem;
+}
+
+.intro-section__illustration {
+  max-width: 40rem;
+
+  margin: 0 8px 0 8px;
+}
+
+.intro-section__content {
+  text-align: center;
+  color: var(--Primary-Color);
+}
+
+.intro-section__content-container {
+  display: grid;
+  justify-items: center;
+}
+
+.intro-section__heading {
+  max-width: 28ch;
+
+  font-family: var(--Raleway-FF);
+  font-weight: 700;
+  font-size: 1.5rem;
+
+  margin-bottom: 1.5rem;
+}
+
+.intro-section__text {
+  max-width: 60ch;
+
+  font-family: var(--Open-Sans-FF);
+  font-weight: 400;
+  font-size: 0.88rem;
+
+  margin: 0 1rem 2rem 9px;
+}
+
+/* *********************** */
+/* FORM */
+/* *********************** */
+
+.intro-section__form {
+  max-width: 33.5rem;
+
+  display: grid;
+  grid-template-areas:
+    "email"
+    "button";
+  gap: 16px;
+
+  margin: 0 auto;
+}
+
+.intro-section__form-email {
+  grid-area: email;
+
+  padding: 0.75rem 2rem 0.75rem 1.25rem;
+}
+
+input[type="email"] {
+  width: 100%;
+
+  font-family: var(--Open-Sans-FF);
+
+  border: solid 0.63px var(--Primary-Color);
+  border-radius: 3.13px;
+
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+}
+
+.intro-section__form-email::placeholder {
+  font-family: var(--Open-Sans-FF);
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.36;
+  letter-spacing: 0.47px;
+
+  color: var(--Secondary-Neutral);
+}
+
+.form-error {
+  font-family: var(--Open-Sans-FF);
+  color: var(--Error-Color);
+}
+
+.button {
+  width: 100%;
+  font-family: var(--Raleway-FF);
+  font-weight: 700;
+  font-size: 0.88rem;
+  line-height: 1.14;
+
+  color: var(--Primary-Neutral);
+
+  border-radius: 4px;
+  background: var(--Primary-Accent);
+
+  box-shadow: 0px 7px 7px -1px var(--Box-Shadow);
+
+  transition: var(--Transition);
+}
+
+.intro-section__form-btn {
+  grid-area: button;
+
+  font-family: var(--Raleway-FF);
+  font-weight: 700;
+  font-size: 0.88rem;
+  line-height: 1.14;
+
+  color: var(--Primary-Neutral);
+
+  padding: 0.75rem 2rem 0.75rem 2rem;
+
+  border-radius: 4px;
+}
