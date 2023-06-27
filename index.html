@@ -169,6 +169,44 @@
           </figure>
         </div>
       </section>
+
+      <section class="access-section">
+        <div class="access-section__content">
+          <h2 class="access-section__heading">Get early access today</h2>
+
+          <p class="access-section__text">
+            It only takes a minute to sign up and our free starter tier is
+            extremely generous. If you have any questions, our support team
+            would be happy to help you.
+          </p>
+        </div>
+
+        <form class="access-section__form form" action="" novalidate>
+          <label class="visually-hidden" for="access-section__form-email"
+            >Enter your email</label
+          >
+          <input
+            type="email"
+            name="email"
+            id="access-section__form-email"
+            aria-describedby="access-section__email-error"
+            class="access-section__form-email"
+            placeholder="email@example.com"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            autocomplete="email"
+          />
+
+          <p
+            id="access-section__form-error"
+            class="access-section__form-error form-error"
+            aria-live="assertive"
+          ></p>
+
+          <button class="access-section__form-btn button" type="submit">
+            Get Started For Free
+          </button>
+        </form>
+      </section>
     </main>
   </body>
 </html>
