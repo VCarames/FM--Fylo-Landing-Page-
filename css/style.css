@@ -127,3 +127,39 @@ body {
   background: var(--Primary-Neutral);
   transition: var(--Transition);
 }
+
+/* *********************** */
+/* HEADER + NAV */
+/* *********************** */
+
+.header {
+  max-width: 90rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1.5rem 1.5rem 6.13rem 1.5rem;
+  margin: 0 auto;
+}
+
+.header__logo {
+  max-width: 5rem;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav-list {
+  display: flex;
+  align-items: center;
+  gap: 1.63rem;
+
+  font-family: var(--Raleway-FF);
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.17;
+
+  color: var(--Primary-Color);
+}
