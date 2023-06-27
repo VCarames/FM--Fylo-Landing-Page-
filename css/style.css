@@ -818,3 +818,32 @@ figcaption {
 .footer__social-icon {
   width: 0.88rem;
 }
+
+@media (min-width: 50em) {
+  .footer {
+    justify-content: center;
+  }
+
+  .footer__content {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3.31rem;
+  }
+
+  .footer__nav-list {
+    columns: 2;
+    column-gap: 3.75rem;
+  }
+
+  .footer__nav-item:nth-child(7) {
+    margin-bottom: 2.5rem;
+  }
+
+  .footer__social-list {
+    gap: 0.81rem;
+
+    justify-content: start;
+
+    margin-left: 5.63rem;
+    margin-top: 0.19rem;
+  }
+}
