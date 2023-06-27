@@ -233,7 +233,7 @@ body {
 .intro-section__heading {
   max-width: 28ch;
 
-  font-family: var(--Open-Sans-FF);
+  font-family: var(--Raleway-FF);
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 2.25rem;
@@ -274,6 +274,7 @@ body {
 
   .intro-section__heading {
     font-size: 2.5rem;
+    line-height: 3.75rem;
 
     margin-bottom: 0.94rem;
   }
@@ -380,6 +381,7 @@ input[type="email"] {
     grid-template-areas: "email button";
     gap: 1rem;
 
+    padding: 0;
     margin: 0;
   }
 
@@ -487,6 +489,7 @@ input[type="email"] {
 @media (min-width: 62.5rem) {
   .productive-section {
     flex-direction: row-reverse;
+    gap: 5.44rem;
 
     padding: 3.94rem 5rem 6.56rem 5rem;
   }
@@ -678,9 +681,9 @@ figcaption {
 }
 
 .access-section__form-email::placeholder {
+  font-family: var(--Raleway-FF);
   font-weight: 400;
   font-size: 0.63rem;
-  line-height: 1.2;
 }
 
 .access-section__form-email {
@@ -700,7 +703,7 @@ figcaption {
 @media (min-width: 62.5em) {
   .access-section {
     flex-direction: row;
-    gap: 10.63rem;
+    gap: 15rem;
 
     padding: 6.31rem 7.5rem 5.32rem 5rem;
   }
@@ -727,9 +730,12 @@ figcaption {
     gap: 0.63rem;
   }
 
+  .access-section__form-email {
+    padding: 0.63rem 0.75rem 0.75rem 1.31rem;
+  }
+
   .access-section__form-email::placeholder {
     font-size: 0.75rem;
-    line-height: 1.17;
   }
 
   .access-section__form-btn {
