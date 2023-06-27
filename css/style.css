@@ -164,6 +164,13 @@ body {
   color: var(--Primary-Color);
 }
 
+@media (hover: hover) {
+  .header__nav-list li:is(:hover, :focus-visible) {
+    color: var(--Primary-Accent-Hover);
+    transition: var(--Transition);
+  }
+}
+
 @media (min-width: 31.25em) {
   .header {
     padding: 4.06rem 3.75rem 1.63rem 3.75rem;
@@ -344,6 +351,12 @@ input[type="email"] {
   transition: var(--Transition);
 }
 
+@media (hover: hover) {
+  .button:is(:hover, :focus-visible) {
+    background: var(--Primary-Accent-Hover);
+  }
+}
+
 .intro-section__form-btn {
   grid-area: button;
 
@@ -456,9 +469,11 @@ input[type="email"] {
   border-bottom: solid 1px var(--Secondary-Accent);
 }
 
-.productive-section__link:is(:hover, :focus-visible) {
-  color: var(--Secondary-Accent-Hover);
-  border-bottom: solid 1px var(--Secondary-Accent-Hover);
+@media (hover: hover) {
+  .productive-section__link:is(:hover, :focus-visible) {
+    color: var(--Secondary-Accent-Hover);
+    border-bottom: solid 1px var(--Secondary-Accent-Hover);
+  }
 }
 
 @media (min-width: 1000px) {
@@ -817,6 +832,28 @@ figcaption {
 
 .footer__social-icon {
   width: 0.88rem;
+}
+
+@media (hover: hover) {
+  .footer__address-item:is(:hover, :focus-visible) {
+    color: var(--Primary-Accent-Hover);
+
+    transition: var(--Transition);
+  }
+
+  .footer__nav-item:is(:hover, :focus-visible) {
+    color: var(--Primary-Accent-Hover);
+
+    transition: var(--Transition);
+  }
+
+  .footer__social-link:is(:hover, :focus-visible) {
+    border: solid 1px var(--Primary-Accent-Hover);
+  }
+
+  .footer__social-link:is(:hover, :focus-visible) .footer__social-icon {
+    fill: var(--Primary-Accent-Hover);
+  }
 }
 
 @media (min-width: 50em) {
