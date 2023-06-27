@@ -604,3 +604,72 @@ figcaption {
     letter-spacing: 0.03rem;
   }
 }
+
+/* *********************** */
+/* ACCESS - SECTION */
+/* *********************** */
+
+.access-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+
+  padding: 3.38rem 1.69rem 4.44rem 1.69rem;
+  margin: 0 auto;
+
+  background: var(--Seconday-Color);
+}
+
+.access-section__content {
+  color: var(--Primary-Neutral);
+  text-align: center;
+}
+
+.access-section__heading {
+  font-family: var(--Raleway-FF);
+  font-weight: 700;
+  font-size: 1.13rem;
+  line-height: 1.33;
+
+  margin-bottom: 0.94rem;
+}
+
+.access-section__text {
+  max-width: 57ch;
+
+  font-family: var(--Open-Sans-FF);
+  font-weight: 400;
+  font-size: 0.88rem;
+}
+
+.access-section__form {
+  width: 100%;
+  max-width: 30rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.access-section__form-email::placeholder {
+  font-weight: 400;
+  font-size: 0.63rem;
+  line-height: 1.2;
+}
+
+.access-section__form-email {
+  padding: 0.63rem 0.75rem 0.75rem 1.31rem;
+
+  border-radius: 0.25rem;
+}
+
+.access-section__form-btn {
+  font-weight: 700;
+  font-size: 0.63rem;
+  line-height: 1.2;
+
+  padding: 0.5rem 2rem 0.56rem 2rem;
+}
